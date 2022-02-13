@@ -117,6 +117,7 @@ body {
 	border-radius: 50%;
 	background: rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 0 1.6rem rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 }
 .main__img-play {
 	position: absolute;
