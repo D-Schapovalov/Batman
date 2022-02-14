@@ -16,29 +16,42 @@
 <body>
 	<header class="header">
 		<div class="container">
-			<div class="header-wrap">
+			<div class="header__wrap">
 				<div class="header__menu">
-					<img src="images/logo.svg" alt="logo: Batman" class="header__logo">
-					<nav class="header__nav">
-						<a href="#" class="header__link">Описание</a>
-						<a href="#" class="header__link">Трейлер</a>
-						<a href="#" class="header__link">Отзывы</a>
-					</nav>
+					<a href="#" class="header__logo header__menu-item-1">
+						<img src="images/logo.svg" alt="logo: Batman">
+					</a>
 				</div>
 				<!-- /.header__menu -->
-				<div class="header__social">
-					<a href="https://twitter.com" class="social__link"><img src="images/twitter.svg" alt="icon: twitter"
-							class="social__icon"></a>
-					<a href="https://instagram.com" class="social__link"><img src="images/instagram.svg" alt="icon: instagram"
-							class="social__icon"></a>
-					<a href="https://facebook.com" class="social__link"><img src="images/facebook.svg" alt="icon: facebook"
-							class="social__icon"></a>
+				<nav class="header__nav header__menu-item-2">
+					<ul class="header__list">
+						<li class="header__item"><a href="#" class="header__link">Описание</a></li>
+						<li class="header__item"><a href="#" class="header__link">Трейлер</a></li>
+						<li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
+					</ul>
+				</nav>
+				<!-- /.header__nav -->
+				<div class="header__social header__menu-item-3">
+					<a href="https://twitter.com" class="social__link">
+						<img src="images/twitter.svg" alt="icon: twitter" class="social__icon">
+					</a>
+					<a href="https://instagram.com" class="social__link">
+						<img src="images/instagram.svg" alt="icon: instagram" class="social__icon">
+					</a>
+					<a href="https://facebook.com" class="social__link">
+						<img src="images/facebook.svg" alt="icon: facebook" class="social__icon">
+					</a>
 				</div>
 				<!-- /.header__social -->
 			</div>
 			<!-- /.header-wrap -->
 		</div>
 		<!-- /.container -->
+		<div class="header__burger">
+			<span class="header__burger-item"></span>
+			<span class="header__burger-item"></span>
+			<span class="header__burger-item"></span>
+		</div>
 	</header>
 	<!-- /.header -->
 	<main class="main">
